@@ -1,13 +1,18 @@
 <!-- Header -->
 <h1 align="left">
-  <img 
-    src="assets/lit.gif" 
-    width="35px" 
-    style="vertical-align:-6px; margin-right:8px;" 
-    alt="wave"
-  />
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.webp" type="image/webp">
+    <img 
+      src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif" 
+      alt="🔥" 
+      width="35" 
+      height="35"
+      style="vertical-align: -5px;"
+    >
+  </picture>
   Vivek Kumar Barman
 </h1>
+
 
 <!-- Typing Text -->
 <p align="left">
@@ -34,14 +39,20 @@
 
 <!-- Tech Stack -->
 <h2 align="left">
-  <img 
-    src="assets/face-in-clouds.gif" 
-    width="35px" 
-    style="vertical-align:-6px; margin-right:8px;" 
-    alt="wave"
-  />
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.webp" type="image/webp">
+    <img 
+      src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.gif" 
+      alt="😶" 
+      width="32" 
+      height="32"
+      style="vertical-align:-8px; margin-right:4px;"
+    >
+  </picture>
   Tech Stack
 </h2>
+
+
 
 ### 🔹 Languages · Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
@@ -77,14 +88,19 @@
 
 <!-- Snake -->
 <h2 align="left">
-  <img 
-    src="assets/snake.gif" 
-    width="35px" 
-    style="vertical-align:-6px; margin-right:8px;" 
-    alt="wave"
-  />
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.webp" type="image/webp">
+    <img 
+      src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif" 
+      alt="🐍" 
+      width="32" 
+      height="32"
+      style="vertical-align:-8px; margin-right:4px;"
+    >
+  </picture>
   Contributions
 </h2>
+
 
 <!-- Light mode -->
 ![GitHub Contribution Snake](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/github-contribution-grid-snake.svg#gh-light-mode-only)
@@ -107,14 +123,19 @@
 
 <!-- Socials -->
 <h2 align="left">
-  <img 
-    src="assets/commet.gif" 
-    width="35px" 
-    style="vertical-align:-6px; margin-right:8px;" 
-    alt="wave"
-  />
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.webp" type="image/webp">
+    <img 
+      src="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.gif" 
+      alt="☄" 
+      width="32" 
+      height="32"
+      style="vertical-align:-7px; margin-right:4px;"
+    >
+  </picture>
   Lets Connect
 </h2>
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-barman/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/howtoquitvivek/)
