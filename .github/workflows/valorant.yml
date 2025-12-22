@@ -1,0 +1,42 @@
+name: Update Valorant Data
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout main (for script)
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate Valorant data
+        env:
+          HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
+        run: python generate_valorant_data.py
+
+      # Switch to output branch
+      - name: Switch to output branch
+        run: |
+          git fetch origin output
+          git checkout output
+
+      # Copy generated file into output branch
+      - name: Update output files
+        run: |
+          cp valorant.json .
+          git add valorant.json
+          git commit -m "Update Valorant data" || exit 0
+          git push origin output
