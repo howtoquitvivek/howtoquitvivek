@@ -29,6 +29,7 @@ jobs:
           mkdir -p dist/valorant
           python generate_valorant_data.py
           mv valorant.json dist/valorant/valorant.json
+          mv valorant-card.svg dist/valorant/valorant-card.svg
 
       # ---------------- SNAKE ----------------
       - name: Generate snake animation
