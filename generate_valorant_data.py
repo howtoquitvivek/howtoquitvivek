@@ -28,9 +28,10 @@ output = {
         "region": REGION
     },
     "rank": {
-        "current": mmr["currenttierpatched"],
-        "rr": mmr["ranking_in_tier"],
-        "elo": mmr.get("elo")
+        "current": mmr["current"]["tier"]["name"],
+        "rr": mmr["current"]["rr"],
+        "elo": mmr["current"]["elo"],
+        "last_change": mmr["current"]["last_change"]
     }
 }
 
