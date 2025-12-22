@@ -1,8 +1,8 @@
-name: Generate Valorant Data
+name: Generate Profile Assets
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -18,9 +18,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install requests
 
+      # ---------------- VALORANT ----------------
       - name: Generate Valorant data
         env:
           HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
@@ -29,11 +30,20 @@ jobs:
           python generate_valorant_data.py
           mv valorant.json dist/valorant/valorant.json
 
+      # ---------------- SNAKE ----------------
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake/github-contribution-grid-snake.svg
+            dist/snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # ---------------- PUSH ----------------
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
