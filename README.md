@@ -93,7 +93,7 @@
 
 
 <!-- Github Trophies -->
-<h2 align="left">
+<!-- <h2 align="left">
   <img 
     src="assets/trophy.gif" 
     width="35px" 
@@ -103,9 +103,7 @@
   Github Trophies
 </h2>
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=howtoquitvivek&theme=tokyonight&no-frame=true&margin-w=15)
-
-<br />
+<br /> -->
 
 <!-- Socials -->
 <h2 align="left">
