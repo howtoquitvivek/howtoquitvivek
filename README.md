@@ -7,7 +7,6 @@
       alt="🔥" 
       width="35" 
       height="35"
-      style="vertical-align: -5px;"
     >
   </picture>
   Vivek Kumar Barman
@@ -46,7 +45,6 @@
       alt="😶" 
       width="32" 
       height="32"
-      style="vertical-align:-8px; margin-right:4px;"
     >
   </picture>
   Tech Stack
@@ -95,31 +93,16 @@
       alt="🐍" 
       width="32" 
       height="32"
-      style="vertical-align:-8px; margin-right:4px;"
     >
   </picture>
   Contributions
 </h2>
-
 
 <!-- Light mode -->
 ![GitHub Contribution Snake](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 <!-- Dark mode -->
 ![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
-
-<!-- Github Trophies -->
-<!-- <h2 align="left">
-  <img 
-    src="assets/trophy.gif" 
-    width="35px" 
-    style="vertical-align:-6px; margin-right:8px;" 
-    alt="wave"
-  />
-  Github Trophies
-</h2>
-
-<br /> -->
 
 <!-- Socials -->
 <h2 align="left">
@@ -130,7 +113,6 @@
       alt="☄" 
       width="32" 
       height="32"
-      style="vertical-align:-7px; margin-right:4px;"
     >
   </picture>
   Lets Connect
