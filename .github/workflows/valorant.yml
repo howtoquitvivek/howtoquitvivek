@@ -25,9 +25,9 @@ jobs:
         env:
           HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
         run: |
-          mkdir -p dist
+          mkdir -p dist/valorant
           python generate_valorant_data.py
-          mv valorant.json dist/valorant.json
+          mv valorant.json dist/valorant/valorant.json
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

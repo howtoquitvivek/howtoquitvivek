@@ -102,9 +102,9 @@
 </h2>
 
 <!-- Light mode -->
-![GitHub Contribution Snake](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/snake/github-contribution-grid-snake.svg#gh-light-mode-only)
 <!-- Dark mode -->
-![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/howtoquitvivek/howtoquitvivek/output/snake/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 
 <!-- Socials -->
