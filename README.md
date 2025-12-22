@@ -5,8 +5,9 @@
     <img 
       src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif" 
       alt="🔥" 
-      width="35" 
-      height="35"
+      width="33" 
+      height="33"
+      style="vertical-align: middle;"
     >
   </picture>
   Vivek Kumar Barman
@@ -43,8 +44,9 @@
     <img 
       src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.gif" 
       alt="😶" 
-      width="32" 
-      height="32"
+      width="25" 
+      height="25"
+      style="vertical-align: middle;"
     >
   </picture>
   Tech Stack
@@ -91,8 +93,9 @@
     <img 
       src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.gif" 
       alt="🐍" 
-      width="32" 
-      height="32"
+      width="25" 
+      height="25"
+      style="vertical-align: middle;"
     >
   </picture>
   Contributions
@@ -111,8 +114,8 @@
     <img 
       src="https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.gif" 
       alt="☄" 
-      width="32" 
-      height="32"
+      width="25" 
+      height="25"
     >
   </picture>
   Lets Connect
