@@ -1,21 +1,20 @@
-name: Update Valorant Data
+name: Generate Valorant Data
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
 jobs:
-  update:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout main (for script)
-      - uses: actions/checkout@v4
-        with:
-          ref: main
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -25,18 +24,15 @@ jobs:
       - name: Generate Valorant data
         env:
           HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
-        run: python generate_valorant_data.py
-
-      # Switch to output branch
-      - name: Switch to output branch
         run: |
-          git fetch origin output
-          git checkout output
+          mkdir -p dist
+          python generate_valorant_data.py
+          mv valorant.json dist/valorant.json
 
-      # Copy generated file into output branch
-      - name: Update output files
-        run: |
-          cp valorant.json .
-          git add valorant.json
-          git commit -m "Update Valorant data" || exit 0
-          git push origin output
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
