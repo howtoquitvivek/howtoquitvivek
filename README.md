@@ -25,12 +25,12 @@
 <!-- Stats -->
 <p align="left">
   <img 
-    src="https://github-readme-stats-fork-vercel.vercel.app/api?username=howtoquitvivek&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true"
+    src="https://github-readme-stats-howtoquitvivek.vercel.app/api?username=howtoquitvivek&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true"
     height="165"
     style="margin-right:20px;"
   />
   <img 
-    src="https://github-readme-stats-fork-vercel.vercel.app/api/top-langs/?username=howtoquitvivek&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
+    src="https://github-readme-stats-howtoquitvivek.vercel.app/api/top-langs/?username=howtoquitvivek&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
     height="165"
   />
 </p>
