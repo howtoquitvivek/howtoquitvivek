@@ -13,6 +13,14 @@
   Vivek Kumar Barman
 </h1>
 
+<p align="left">
+  <a href="https://portfolio-iota-flax-41.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_My_Portfolio-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/howtoquitvivek">
+    <img src="https://komarev.com/ghpvc/?username=howtoquitvivek&label=Profile%20Views&color=58A6FF&style=for-the-badge" alt="Profile Views" style="margin-left: 10px;" />
+  </a>
+</p>
 
 <!-- Typing Text -->
 <p align="left">
@@ -22,16 +30,36 @@
   />
 </p>
 
+<!-- About Me -->
+<h2 align="left">
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+    <img 
+      src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" 
+      alt="🚀" 
+      width="25" 
+      height="25"
+      style="vertical-align: middle;"
+    >
+  </picture>
+  About Me
+</h2>
+
+I'm a **Data & Development enthusiast** deeply passionate about building scalable Machine Learning models and robust backend systems. I enjoy the entire journey of software development—from crafting complex algorithms to deploying high-performance applications.
+
+<br />
+
 <!-- Stats -->
 <p align="left">
   <img 
-    src="https://github-readme-stats-howtoquitvivek.vercel.app/api?username=howtoquitvivek&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=howtoquitvivek&theme=tokyonight&hide_border=true"
     height="165"
-    style="margin-right:20px;"
+    style="margin-right:8px; margin-bottom:8px;"
   />
   <img 
     src="https://github-readme-stats-howtoquitvivek.vercel.app/api/top-langs/?username=howtoquitvivek&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
     height="165"
+    style="margin-right:8px; margin-bottom:8px;"
   />
 </p>
 
@@ -131,6 +159,17 @@
 </h2>
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-barman/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivekbarman425@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/howtoquitvivek/)
+<p align="left">
+  <a href="https://portfolio-iota-flax-41.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/vivek-barman/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8+PC9zdmc+&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vivekbarman425@gmail.com&su=Connecting%20from%20GitHub&body=Hi%20Vivek,%0A%0A[Type%20your%20message%20here]%0A%0A" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://leetcode.com/u/howtoquitvivek/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</p>

@@ -13,24 +13,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install deps
-        run: pip install requests
-
-      # ---------------- VALORANT ----------------
-      - name: Generate Valorant data
-        env:
-          HENRIK_API_KEY: ${{ secrets.HENRIK_API_KEY }}
-        run: |
-          mkdir -p dist/valorant
-          python generate_valorant_data.py
-          mv valorant.json dist/valorant/valorant.json
-          mv valorant-card.svg dist/valorant/valorant-card.svg
-
       # ---------------- SNAKE ----------------
       - name: Generate snake animation
         uses: Platane/snk@v3
